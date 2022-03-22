@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Backgrounds */
+.my_bg-dark {
+    background-color: #121212;
+}
+
+/* Fonts */
+.my_font-title {
+    font-family: 'Inspiration', cursive;
+    font-weight: bold;
+}
+
+.my_font-paragraph {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* Components */
+.my_jumbotron {
+    background-image: url(https://images.unsplash.com/photo-1530554764233-e79e16c91d08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80); 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    background-position-x: 80%;
+}
+
+.my_most-requests {
+    background-image: url(../img/1647950091675.png); background-repeat: no-repeat; 
+    background-size: contain; 
+    background-position-x: 20%;
+}

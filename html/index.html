@@ -13,6 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inspiration&display=swap" rel="stylesheet">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400&display=swap" rel="stylesheet">
+
+    <!-- Link css -->
+    <link rel="stylesheet" href="../css/style.css">
+
     <title>Document</title>
 </head>
 
@@ -21,31 +28,22 @@
 
     <header class="container-fluid">
         <div class="row">
-            <div class="col-8 p-2 text-white" style="background-color: #121212;">
-                <h1><span class="text-warning">D</span>elive<span class="text-warning">B</span>oo</h1>
+            <div class="col-8 text-white my_bg-dark">
+                <div class="w-25 p-2">
+                    <img class="img-fluid" src="../img/20220322_170706.png" alt="DeliveBoo">
+                </div>
             </div>
-            <div class="col-4 p-2 d-flex align-items-center flex-row-reverse" style="background-color: #121212;">
-                <div>
+            <div class="col-4 p-2 d-flex align-items-center flex-row-reverse my_bg-dark">
+                <div class="p-2">
                     <a class="btn btn-success">Log In</a>
                     <a class="btn btn-warning">Sign Up</a>
                 </div>
             </div>
         </div>
-
-        <!-- <div class="row">
-            <div class="col bg-warning p-3 d-flex justify-content-around align-items-center">
-                <ul class="d-flex m-0 list-unstyled w-50 justify-content-around">
-                    <li><a class="text-decoration-none text-dark" href="#">Pizza</a></li>
-                    <li><a class="text-decoration-none text-dark" href="#">Mandolino</a></li>
-                    <li><a class="text-decoration-none text-dark" href="#">Mafia</a></li>
-                    <li><a class="text-decoration-none text-dark" href="#">Polpette</a></li>
-                </ul>
-            </div>
-        </div> -->
     </header>
 
     <main class="d-flex">
-        <div class="d-flex flex-column flex-shrink-0 p-3 text-white" style="width: 280px; background-color: #121212;">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-white my_bg-dark my_font-paragraph" style="width: 280px;">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
                 <svg class="bi me-2" width="40" height="32">
                     <use xlink:href="#bootstrap"></use>
@@ -122,10 +120,10 @@
             </div>
         </div>
 
+        <!-- Barra di ricerca -->
         <div class="w-100">
-            <!-- Barra di ricerca -->
             <div class="d-flex bg-warning p-3 justify-content-around align-items-center">
-                <ul class="d-flex m-0 list-unstyled w-50 justify-content-around">
+                <ul class="d-flex m-0 list-unstyled w-50 justify-content-around my_font-paragraph">
                     <li><a class="text-decoration-none text-dark" href="#offerte-speciali">Offerte Speciali</a></li>
                     <li><a class="text-decoration-none text-dark" href="#i-piu-richiesti">I Più Richiesti</a></li>
                     <li><a class="text-decoration-none text-dark" href="#le-nostre-proposte">Le Nostre Proposte</a></li>
@@ -134,13 +132,11 @@
             </div>
 
             <!-- Jumbotron -->
-            <div class="w-100 p-5"
-                style="background-color: #121212; background-image: url(https://images.unsplash.com/photo-1530554764233-e79e16c91d08?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aGFtYnVyZ2VyfGVufDB8fDB8fA%3D%3D&w=1000&q=80); background-repeat: no-repeat; background-size: contain; background-position-x: 80%;">
+            <div class="w-100 p-5 my_bg-dark my_jumbotron">
                 <div class="p-5 w-50">
-                    <h1 class="text-warning"
-                        style="font-family: 'Inspiration', cursive; font-size: 4em; font-weight: bold;">Solo i
+                    <h1 class="text-warning my_font-title" style="font-size: 4em;">Solo i
                         ristoranti migliori</h1>
-                    <p class="text-white">Lorem Ipsum Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing
+                    <p class="text-white my_font-paragraph">Lorem Ipsum Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing
                         elit. Corrupti, ipsa
                         maxime illo quo, accusantium nesciunt ducimus deserunt doloribus quod ex omnis quidem
                         consequatur atque libero aut fugit? Illum, quaerat quas!</p>
@@ -149,22 +145,20 @@
 
             <!-- Sezione Offerte Speciali -->
             <div class="w-100 text-center bg-warning p-5" id="offerte-speciali">
-                <h2 style="font-family: 'Inspiration', cursive; font-size: 3.3em; font-weight: bold;">Offerte Speciali
+                <h2 class="my_font-title" style="font-size: 3.3em;">Offerte Speciali
                 </h2>
-                <h5>Scopri le offerte più convenienti!</h5>
+                <h5 class="my_font-paragraph">Scopri le offerte più convenienti!</h5>
             </div>
             <div class="w-100 text-center p-4">
                 <h4>{{Slider con offerte speciali???}}</h4>
             </div>
 
             <!-- Sezione I Più Richiesti -->
-            <div class="w-100 d-flex flex-row-reverse p-5" id="i-piu-richiesti"
-                style="background-color: #121212; background-image: url(img/1647950091675.png); background-repeat: no-repeat; background-size: contain; background-position-x: 20%;">
+            <div class="w-100 d-flex flex-row-reverse p-5 my_bg-dark my_most-requests" id="i-piu-richiesti">
                 <div class="p-5 w-50">
-                    <h2 class="text-warning"
-                        style="font-family: 'Inspiration', cursive; font-size: 4em; font-weight: bold;">I pi&ugrave;
+                    <h2 class="text-warning my_font-title" style="font-size: 4em;">I pi&ugrave;
                         richiesti</h2>
-                    <p class="text-white">Lorem Ipsum Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing
+                    <p class="text-white my_font-paragraph">Lorem Ipsum Lorem ipsum Lorem ipsum dolor sit amet consectetur adipisicing
                         elit. Corrupti, ipsa
                         maxime illo quo, accusantium nesciunt ducimus deserunt doloribus quod ex omnis quidem
                         consequatur atque libero aut fugit? Illum, quaerat quas!</p>
@@ -173,9 +167,9 @@
 
             <!-- Sezione Le Nostre Proposte -->
             <div class="w-100 text-center bg-warning p-5" id="le-nostre-proposte">
-                <h2 style="font-family: 'Inspiration', cursive; font-size: 3.3em; font-weight: bold;">Le Nostre Proposte
+                <h2 class="my_font-title" style="font-size: 3.3em;">Le Nostre Proposte
                 </h2>
-                <h5>Non sai cosa mangiare? Ecco le nostre proposte!</h5>
+                <h5 class="my_font-paragraph">Non sai cosa mangiare? Ecco le nostre proposte!</h5>
             </div>
             <div class="w-100 text-center p-4">
                 <h4>{{Slider con proposte casuali prese dal DB???}}</h4>
