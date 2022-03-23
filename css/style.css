@@ -9,6 +9,10 @@
     background-color: #121212;
 }
 
+.my_bg-orange{
+    background-color: #d6833a;
+}
+
 /* Fonts */
 .my_font-title {
     font-family: 'Inspiration', cursive;
